@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: ForwardBot
+    env: python
+    buildCommand: ""
+    startCommand: python forwardbot.py
